@@ -5,11 +5,8 @@
         {{ partial "nav.html" . }}
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
                     {{ .Render "single.content" }}
                     {{ partial "disqus.html" . }}
-                </div>
-         {{ partial "sidebar.html"}}
             </div>
         </div>
         {{ partial "footer.html" . }}

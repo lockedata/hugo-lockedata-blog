@@ -12,8 +12,14 @@
                 {{ end }}
             </ul>
         {{ end }}
-        {{ partial "widgets/content/share.html" . }}
-        {{ .Content }}
         {{ partial "widgets/content/tags.html" . }}
-    </div>
+        {{ .Content }}
+		</div>
+		
 </div>
+    {{ partial "widgets/content/search.html" . }}
+<div class="row">
+		  <div class="col-md-12 content-card">
+        {{ partial "widgets/content/share.html" . }}
+    </div>
+	</div>

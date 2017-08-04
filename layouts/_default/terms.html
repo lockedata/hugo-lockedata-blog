@@ -5,6 +5,7 @@
         {{ partial "nav.html" . }}
         <div id="top" class="container">
             <div class="row" id="content-main">
+      {{ partial "sidebar.html" }}
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col-md-12 content-card">
@@ -21,7 +22,6 @@
                         </div>
                     </div>
                 </div>
-      {{ partial "sidebar.html" }}
             </div>
         </div>
         {{ partial "footer.html" . }}
