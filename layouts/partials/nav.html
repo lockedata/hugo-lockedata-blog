@@ -30,7 +30,7 @@
         </li>
         {{ range .Site.Menus.prepend }}
           <li>
-            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            <a href="{{ .URL }}">{{ .Name }}</a>
           </li>
         {{ end }}
 
