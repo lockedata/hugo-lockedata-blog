@@ -368,7 +368,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .content-card img {
-    width: 100%;
+	width: 75%;
+	height: auto;
 }
 
 .content-card .list-inline {
