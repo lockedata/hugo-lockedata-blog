@@ -527,3 +527,7 @@ pre {
 pre code {
     white-space: pre;
 }
+
+.small-image img {
+    width: 250px;
+}
