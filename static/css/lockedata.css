@@ -531,3 +531,12 @@ pre code {
 .small-image img {
     width: 250px;
 }
+
+.left img {
+    float: left;
+}
+
+
+.right img {
+    float: right;
+}
